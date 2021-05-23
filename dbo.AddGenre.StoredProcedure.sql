@@ -1,6 +1,6 @@
 USE [DylanOchoaLibraryDB]
 GO
-/****** Object:  StoredProcedure [dbo].[AddGenre]    Script Date: 3/28/2021 8:30:46 PM ******/
+/****** Object:  StoredProcedure [dbo].[AddGenre]    Script Date: 5/23/2021 4:28:12 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
