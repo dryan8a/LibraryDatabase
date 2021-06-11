@@ -1,6 +1,6 @@
 USE [DylanOchoaLibraryDB]
 GO
-/****** Object:  View [dbo].[EmployeeToManagers]    Script Date: 5/23/2021 4:28:12 PM ******/
+/****** Object:  View [dbo].[EmployeeToManagers]    Script Date: 6/10/2021 7:01:03 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

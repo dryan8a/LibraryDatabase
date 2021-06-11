@@ -1,6 +1,6 @@
 USE [DylanOchoaLibraryDB]
 GO
-/****** Object:  Table [dbo].[UserLogins]    Script Date: 5/23/2021 4:28:12 PM ******/
+/****** Object:  Table [dbo].[UserLogins]    Script Date: 6/10/2021 7:01:03 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -8,7 +8,7 @@ GO
 CREATE TABLE [dbo].[UserLogins](
 	[UserID] [char](8) NOT NULL,
 	[Username] [varchar](50) NOT NULL,
-	[PasswordHash] [binary](60) NOT NULL,
+	[PasswordHash] [char](8) NOT NULL,
 	[TwoFactorAuth] [bit] NOT NULL,
  CONSTRAINT [PK_UserLoginData] PRIMARY KEY CLUSTERED 
 (
